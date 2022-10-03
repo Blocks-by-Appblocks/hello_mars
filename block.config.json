@@ -1,0 +1,13 @@
+{
+  "name": "hello_mars",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Blocks-by-Appblocks/hello_mars",
+    "ssh": "git@github.com:Blocks-by-Appblocks/hello_mars.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": true
+}
