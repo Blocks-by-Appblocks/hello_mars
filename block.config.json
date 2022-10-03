@@ -1,13 +1,1 @@
-{
-  "name": "hello_mars",
-  "type": "function",
-  "source": {
-    "https": "https://github.com/Blocks-by-Appblocks/hello_mars",
-    "ssh": "git@github.com:Blocks-by-Appblocks/hello_mars.git"
-  },
-  "language": "nodejs",
-  "start": "node index.js",
-  "build": "",
-  "postPull": "npm i",
-  "standAloneBlock": true
-}
+{"name":"hello_mars_new","type":"function","source":{"https":"https://github.com/uttahb/hello_mars_new","ssh":"git@github.com:uttahb/hello_mars_new.git"},"language":"nodejs","start":"node index.js","build":"","postPull":"npm i","standAloneBlock":true,"isFork":true}
